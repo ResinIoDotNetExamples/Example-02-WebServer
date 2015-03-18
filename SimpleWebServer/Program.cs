@@ -8,7 +8,7 @@ namespace SimpleWebServer
 
 		public static void Main (string[] args)
 		{
-			int port = 80;
+			int port = 8080;
 			if (args.Length > 0)
 			{
 				if (!int.TryParse (args [0], out port)) {
