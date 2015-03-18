@@ -6,4 +6,4 @@ RUN apt-get install -y libmono2.0-cil mono-runtime
 
 ADD layout/* /app/SimpleWebServer/
 
-CMD ["mono", "/app/hello/SimpleWebServer.exe"]
+CMD ["mono", "/app/SimpleWebServer/SimpleWebServer.exe"]
